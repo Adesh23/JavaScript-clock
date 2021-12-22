@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(bg.jpeg);
+ 
+  
+}
+.container{
+  display: inline-block;
+  border:10px solid yellow;
+ width: 300px;
+ height: 300px;
+ border-radius: 50%;
+ transform: translate(100%,80%);
+
+}
+.sec{
+ display: inline-block;
+ width:2px;
+ height: 50%;
+ position: relative;
+ left:50%;
+  background-color: blue;
+  transform-origin:bottom;
+  border-top-radius:50%; 
+}
+.hour{
+  display: inline-block;
+  width:6px;
+  height: 50%;
+  position: absolute;
+  left:50%;
+  background-color: white;
+  transform-origin:bottom;
+  border-top-left-radius:50%; 
+  border-top-right-radius:50%; 
+}
+.minute{
+  display: inline-block;
+  width: 4px;
+  height: 50%;
+  position: absolute;
+  left:50%;
+  background-color:green;
+  transform-origin: bottom;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+}
+.num{
+  display: inline-block;
+  position: absolute;
+  top:0%;
+  color:white;
+width: 300px;
+height: 300px;
+text-align: center;
+}
+.id-2{ transform: rotate(30deg)}
+.id-3{ transform: rotate(60deg)}
+.id-4{ transform: rotate(90deg)}
+.id-5{ transform: rotate(120deg)}
+.id-6{ transform: rotate(150deg)}
+.id-7{ transform: rotate(180deg)}
+.id-8{ transform: rotate(210deg)}
+.id-9{ transform: rotate(240deg)}
+.id-10{ transform: rotate(270deg)}
+.id-11{ transform: rotate(300deg)}
+.id-12{ transform: rotate(330deg)}
+
+
+
+
+
